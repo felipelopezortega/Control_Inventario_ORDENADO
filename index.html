@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Control de Inventario ORDENADO</title>
+</head>
+
+<body>
+    <h1>INVENTARIO</h1>
+    <h3>Favor de llenar los campos correspondientes</h3>
+
+    <div id='inventario'>
+        <form>
+          <label for='txtCode'>
+            Código:<input type='number' id='txtCode'>
+            <br><br>
+          </label>
+          <label for='txtName'>
+            Nombre:<input type='text' id='txtName'>
+            <br><br>
+          </label>
+          <label for='txtCuantity'>
+            Cantidad:<input type='number' id='txtQuantity'>
+            <br><br>
+          </label>
+          <label for='txtCost'>
+            Costo:<input type='number' id='txtCost'>
+            <br><br>
+          </label>
+          <button type='button' id='btnAdd'>Agregar</button>
+          <button type='button' id='btnDelete'>Eliminar</button>
+          <button type='button' id='btnSearch'>Buscar</button>
+          <button type='button' id='btnList'>Listar</button>
+          <button type='button' id='btnInvertList'>Invertir</button>
+        </form>
+      </div>
+      <div id='tab'>
+        
+      </div>
+
+    <script type="module" src="main.js"></script>
+</body>
+
+</html>
